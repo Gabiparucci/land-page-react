@@ -1,0 +1,73 @@
+h1, label, button{
+    font-family: 'Roboto Slab', serif;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.welcome-right{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 80px;
+    height: 2px;
+    background: var(--primary);
+}
+
+.welcome-label{
+    display: flex;
+    align-items: center;
+}
+
+.welcome-oya{
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.digital-agency{
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--primary);
+    color: #fff;
+}
+
+
+.btn-services{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    color: var(--light);
+    font-weight: 500;
+    outline: none;
+}
+
+.btn-about-us{
+    width: 100px;
+    height: 40px;
+    border: 2px solid orange;
+    background: var(--light);
+    border-radius: 5px;
+    font-weight: 500;
+    margin: 0 20px;
+    outline: none;
+}
+
+.image-header{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.buttons{
+    margin: 30px 0;
+}

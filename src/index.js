@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Header from './sections/header';
+import AboutUs from './sections/about-us';
+import Portfolio from './sections/portifolio'
+import Services from './sections/services'
+import Prices from './sections/prices'
+import Comments from './sections/comments'
+import Contact from './sections/contact'
+import Footer from './sections/footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <AboutUs />
+    <Portfolio />
+    <Services />
+    <Prices />
+    <Comments />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

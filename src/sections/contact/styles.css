@@ -1,0 +1,94 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 44px 0;
+}
+
+.contact-content {
+    height: 100%;
+    max-width: var(--max-width);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.info label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info span{
+    color: #666;
+    margin-top: 8px;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 64px;
+}
+
+.info-person{
+    display: flex;
+    width: 100%;
+}
+
+.form-wrapper input,
+.form-wrapper textarea{
+    flex: 1;
+    margin: 8px;
+    min-height: 34px;
+    border-radius: 5px;
+    background: #eee;
+    border: none;
+    padding: 0 14px;
+    outline: none;
+    resize: none;
+}
+
+.form-wrapper textarea{
+    padding-top: 14px;
+    min-height: 130px;
+}
+
+.info-message{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-message button{
+    width: 114px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+    border:  none;
+    outline: none;
+    cursor: pointer;
+}
+
+.info-message div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}

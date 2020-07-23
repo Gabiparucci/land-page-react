@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-topics{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo{
+    width: 40px;
+    height:23px;
+}
+
+.list-topics li{
+    padding: 0 20px;
+}
+
+.list-topics a{
+    color: var(--light);
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+

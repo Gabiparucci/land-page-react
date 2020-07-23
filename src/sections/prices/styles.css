@@ -1,0 +1,25 @@
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 44px 0;
+}
+
+.prices-content {
+    height: 100%;
+    max-width: var(--max-width);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
