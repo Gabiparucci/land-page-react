@@ -25,7 +25,7 @@ export default () => {
                         <AnchorLink href='#prices'>Preços</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink href='#contact'>Entre em contato</AnchorLink>
+                        <AnchorLink href='#contact'>Contato</AnchorLink>
                     </li>
                     <li>
                         <a href="https://github.com/Gabiparucci/land-page-react" target="_blank">Github</a>
